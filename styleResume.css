@@ -1,0 +1,40 @@
+.header{
+    height: 60vh;
+}
+
+.back-square-resume{
+    width: 100%;
+    height: 20em;
+    background: linear-gradient(#c03155, #c70032d2);
+}
+
+.main-title{
+    padding-top: 3em;
+}
+
+/* My Resume */
+.myResume{
+    background-image: url("images/NewResume2_page-0001.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+    height: 65em;
+}
+
+.resumeDownloadLink{
+    margin: auto;
+    margin-top: 2em;
+    padding: 1em;
+    border: thin solid #fff;
+    border-radius: 10px;
+    width: 15em;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.resumeDownloadLink:hover, .resumeDownloadLink:focus{
+    background-color: #5b001bd4;
+    width: 15.5em;
+}
