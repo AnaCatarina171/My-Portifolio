@@ -21,4 +21,23 @@ $(document).on("scroll", function() {
       }
     }
   });
+
+window.onload = function(){
+
+  let moreSkillsBtn = document.getElementById('moreSkillsButton');
+  let moreSkillsDiv = (document.getElementsByClassName('moreSkillsDiv'))[0];
+
+  moreSkillsBtn.addEventListener('click', function(){
+
+    if(moreSkillsDiv.classList.contains('hidden')){
+      moreSkillsDiv.classList.remove('hidden');
+      moreSkillsBtn.innerHTML = 'less skills';
+    }
+    else{
+      moreSkillsDiv.classList.add('hidden');
+      moreSkillsBtn.innerHTML = 'more skills';
+
+    }
+  })
+}
   
