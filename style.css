@@ -414,7 +414,7 @@ main{
 }
 
 .skillBox:hover{
-  --img-scale: 1.09;
+  --img-scale: 1.05;
   --title-color: #ff6594;
   --link-icon-translate: 0;
   --link-icon-opacity: 1;
